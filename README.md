@@ -3,8 +3,7 @@
 Hệ thống phát hiện và giám sát tình trạng ô đỗ xe từ video bằng **YOLO
 (Ultralytics)** và **ByteTrack**, kết hợp bản đồ các ô đỗ được lưu trong
 JSON. Chương trình tạo video kết quả có màu trạng thái ô đỗ và ghi log
-để hỗ trợ phân tích hiện tượng trạng thái thay đổi không ổn định
-(*flicker*).
+để hỗ trợ phân tích hiện tượng trạng thái thay đổi không ổn định.
 
 > **Lưu ý:** Repository cần có mã nguồn Python tương ứng
 > (`parking_monitor_styled.py`, `overlay_slots.py`,
