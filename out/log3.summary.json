@@ -1,0 +1,37 @@
+{
+  "frames": 654,
+  "latency_ms_mean": 174.23876816054377,
+  "latency_ms_p50": 167.69367550011793,
+  "latency_ms_p95": 208.03997930001972,
+  "fps_mean": 5.739250859938352,
+  "params": {
+    "video": "/content/drive/MyDrive/carParking/data/carParking3.mp4",
+    "weights": "/content/drive/MyDrive/carParking/models/best11n.pt",
+    "slots": "/content/drive/MyDrive/carParking/slots3.json",
+    "classes": [
+      "0",
+      "car"
+    ],
+    "imgsz": 1184,
+    "conf": 0.2,
+    "tracker": "bytetrack.yaml",
+    "theta": 0.25,
+    "window": 5,
+    "dwell": 8,
+    "move_frac": 0.15,
+    "out": "out/result_styled3.mp4",
+    "log": "out/log3.csv",
+    "layout": "dashboard",
+    "warmup": 30,
+    "groups": 6,
+    "scale": 1.0,
+    "preset": null,
+    "crf": 18,
+    "alpha": 0.35,
+    "inset": 1.0,
+    "line": 2,
+    "show_cars": false,
+    "preview": null,
+    "preview_frame": 0
+  }
+}
