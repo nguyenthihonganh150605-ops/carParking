@@ -1,13 +1,13 @@
 {
-  "frames": 654,
-  "latency_ms_mean": 205.75480459634375,
-  "latency_ms_p50": 197.5294510002641,
-  "latency_ms_p95": 240.6325193005614,
-  "fps_mean": 4.86015382222462,
+  "frames": 354,
+  "latency_ms_mean": 180.06181424011294,
+  "latency_ms_p50": 173.1834145002722,
+  "latency_ms_p95": 211.2125488500169,
+  "fps_mean": 5.553648363591945,
   "params": {
-    "video": "/content/drive/MyDrive/carParking/data/carPaking6 edit.mp4",
+    "video": "/content/drive/MyDrive/carParking/data/1792929907634_2515833678299087146_2515833678299087146.mp4",
     "weights": "/content/drive/MyDrive/carParking/models/best11n.pt",
-    "slots": "/content/drive/MyDrive/carParking/1slots.json",
+    "slots": "/content/drive/MyDrive/carParking/slots.json",
     "classes": [
       "0",
       "car"
